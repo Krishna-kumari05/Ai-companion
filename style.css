@@ -1,0 +1,18 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, sans-serif; background: #f7f7fb; color: #1a1a2e; }
+.app { max-width: 720px; margin: 0 auto; padding: 2rem 1rem; }
+header h1 { margin: 0; }
+.card { background: white; border-radius: 12px; padding: 1rem; margin: 0.75rem 0; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+.row { display: flex; gap: 0.5rem; align-items: center; }
+.row.between { justify-content: space-between; }
+input, textarea { width: 100%; padding: 0.6rem; border: 1px solid #ddd; border-radius: 8px; margin-bottom: 0.5rem; font: inherit; }
+button { padding: 0.5rem 1rem; border: 0; border-radius: 8px; background: #6366f1; color: white; cursor: pointer; }
+button:disabled { opacity: 0.6; }
+.tasks { list-style: none; padding: 0; }
+.badge { padding: 2px 8px; border-radius: 999px; font-size: 0.75rem; color: white; }
+.badge.urgent { background: #ef4444; } .badge.high { background: #6366f1; }
+.badge.medium { background: #f59e0b; } .badge.low { background: #94a3b8; }
+.ai { border: 1px solid #c7d2fe; background: #eef2ff; }
+.ai-note { background: #f3f4f6; padding: 0.5rem; border-radius: 8px; margin-top: 0.5rem; }
+.err { color: #ef4444; }
+.done { opacity: 0.6; }
